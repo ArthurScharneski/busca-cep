@@ -1,0 +1,99 @@
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-image: linear-gradient(#0093e9, #deed4f); */
+  background-color: #0093e9;
+  background-image: linear-gradient(33deg, #0093e9 0%, #deed4f 100%);
+}
+
+.content {
+  border: 1px solid gray;
+  padding: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 8px 0px 50px 0px;
+  width: 100px;
+  font-size: 20px;
+  padding: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(106, 119, 11);
+  border: none;
+  color: rgb(255, 253, 251);
+  border-radius: 15%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+  font-size: 20px;
+  text-align: center;
+}
+input[type="number"] {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  width: 300px;
+  font-size: 40px;
+  text-align: center;
+}
+#dig-cep {
+  /* -webkit-text-fill-color: transparent; */
+  /* background-clip: text; */
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  margin: 8px 0px 40px 0px;
+  font-size: 4em;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -5px 5px 20px #ced0d3;
+  color: #f9f1cc;
+  text-shadow: 3px 3px 0px #ffb650, 6px 6px 0px #ffd662, 9px 9px 0px #ff80bf,
+    12px 12px 0px #ef5097, 15px 15px 0px #6868ac, 18px 18px 0px #90b1e0;
+}
+.cep {
+  margin: 1em 1em;
+  font-size: 1.3em;
+  text-align: center;
+}
+.content {
+  border: none;
+  font-family: cursive;
+  font-size: 1.1em;
+}
+.data {
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  font-style: oblique;
+  color: rgb(106, 25, 5);
+}
+.id-data {
+  color: blueviolet;
+  font-size: 1.6em;
+}

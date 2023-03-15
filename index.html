@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Cep</h1>
+      <form>
+        <label for="dig-cep"></label>
+        <input
+          type="number"
+          id="dig-cep"
+          name="dig-cep"
+          placeholder="Digite o cep..."
+          value=""
+        />
+        <button>Enter</button>
+      </form>
+      <div class="content">
+        <span class="data">Cidade:</span>
+        <span class="id-data" id="cidade"></span>
+      </div>
+      <div class="content">
+        <span class="data">Estado:</span>
+        <span class="id-data" id="uf"></span>
+      </div>
+      <div class="content">
+        <span class="data">Rua:</span>
+        <span class="id-data" id="logradouro"></span>
+      </div>
+      <div class="content">
+        <span class="data">Cep:</span>
+        <span class="id-data" id="cep"></span>
+      </div>
+      <div class="content">
+        <span class="data">DDD:</span>
+        <span class="id-data" id="ddd"></span>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
